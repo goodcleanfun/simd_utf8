@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: make install
       - name: Run tests
-        run: make CC=${{ matrix.compiler }} CFLAGS="-std=gnu11" LDFLAGS="-lm" test
+        run: make CC=${{ matrix.compiler }} CFLAGS="-std=gnu11 -march=x86-64-v3" test
 
   test-macos:
     runs-on: macos-latest
