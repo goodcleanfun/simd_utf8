@@ -1,6 +1,6 @@
 {
     "name": "simd_utf8",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repo": "goodcleanfun/simd_utf8",
     "description": "Fast UTF-8 validation using the range algorithm with SIMDe",
     "keywords": ["utf8", "validation", "simd"],
